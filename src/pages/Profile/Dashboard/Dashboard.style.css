@@ -60,6 +60,28 @@
     color: #fff;
 }
 
+.edit-profile-form-inputs {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 75%;
+    
+    margin: 0 auto;
+    max-width: 512px;
+}
+
+.edit-profile-button {
+    width: 128px !important;
+}
+
+.button-save {
+    align-self: flex-end;
+}
+
+.button-cancel {
+    align-self: flex-start;
+}
+
 @media (min-width: 720px) {
     .account {
         flex-direction: row;
