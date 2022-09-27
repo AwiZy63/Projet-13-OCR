@@ -12,7 +12,7 @@ const userDataReducer = (state = initialState, action) => {
             state = Object.assign({}, state, { isLogged: true }, action.payload);
             return state;
         case EDIT_PROFILE_USERDATA_ACTION:
-            const { firstName, lastName } = action.payload;            
+            const { firstName, lastName } = action.payload;
 
             state = Object.assign({}, state, {
                 firstName: firstName,
